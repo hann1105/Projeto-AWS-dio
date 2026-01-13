@@ -1,0 +1,56 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+**Data:** 15/01/2026
+**Empresa:** Abstergo Industries (Setor Farmacêutico)
+**Responsável:** Paola Hanna de Moura Coutinho
+
+## Introdução
+
+Este relatório apresenta o processo de implementação de serviços da Amazon Web Services (AWS) na empresa **Abstergo Industries**, com foco na **redução imediata 
+de custos operacionais** em suas farmácias. O projeto foi conduzido por **Paola Hanna de Moura Coutinho** e teve como objetivo selecionar e aplicar três serviços 
+AWS estratégicos que otimizam infraestrutura, armazenamento e processamento de dados, mantendo alta disponibilidade e segurança.
+
+## Descrição do Projeto
+
+O projeto de implementação foi dividido em **três etapas**, cada uma focada em um aspecto crítico da operação de TI da empresa.
+
+### Etapa 1: Amazon EC2 com Auto Scaling
+
+* **Foco da ferramenta:** Otimização de custos de processamento
+* **Descrição do caso de uso:**
+  A empresa utilizava servidores locais superdimensionados para sistemas internos e aplicações de gestão de estoque e vendas. Com a adoção do **Amazon EC2** aliado
+ao **Auto Scaling**, foi possível ajustar automaticamente a quantidade de instâncias conforme a demanda, reduzindo custos em períodos de baixo uso e garantindo 
+desempenho nos horários de pico.
+
+### Etapa 2: Amazon S3 (Simple Storage Service)
+
+* **Foco da ferramenta:** Redução de custos de armazenamento
+* **Descrição do caso de uso:**
+  Arquivos como relatórios fiscais, históricos de vendas, imagens de produtos e backups eram armazenados localmente, gerando altos custos de manutenção. A migração
+para o **Amazon S3**, utilizando políticas de ciclo de vida e classes de armazenamento adequadas, permitiu um armazenamento altamente durável, escalável e com custo
+significativamente menor.
+
+### Etapa 3: AWS RDS (Amazon Relational Database Service)
+
+* **Foco da ferramenta:** Otimização de custos e gestão de banco de dados
+* **Descrição do caso de uso:**
+  A administração manual de bancos de dados exigia equipe especializada e gerava custos elevados. Com o **AWS RDS**, a empresa passou a contar com backups automáticos,
+atualizações gerenciadas e alta disponibilidade, reduzindo custos operacionais e riscos de indisponibilidade.
+
+## Conclusão
+
+A implementação dos serviços **Amazon EC2 com Auto Scaling, Amazon S3 e AWS RDS** proporcionou à empresa **Abstergo Industries** uma redução significativa de custos 
+operacionais, maior eficiência no uso dos recursos de TI e aumento da escalabilidade dos sistemas. Recomenda-se a continuidade do uso dessas soluções e a avaliação 
+constante de novos serviços AWS que possam aprimorar ainda mais os processos da empresa.
+
+## Anexos
+
+* Documentação dos serviços AWS utilizados
+* Planilha de estimativa de custos antes e depois da migração
+* Diagramas de arquitetura da solução
+
+---
+
+**Assinatura do Responsável pelo Projeto:**
+
+Paola Hanna de Moura Coutinho
